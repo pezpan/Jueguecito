@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal" android:layout_width="match_parent"
+android:gravity="center_horizontal"
+android:padding="5dp"
+android:descendantFocusability="blocksDescendants"
+android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/tantos"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowRadius="10.0"
+        android:textColor="@android:color/white"
+        android:textSize="22dp" />
+
+    <ImageView android:id="@+id/nombrejugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:maxLines="1"
+        android:scaleType="centerInside"
+        android:focusable="false"
+        android:padding="2dp"
+        android:textColor="@color/texto" />
+
+    <ImageButton android:id="@+id/tiempo"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_alarm"
+        android:scaleType="fitCenter"
+        android:padding="10dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="center"/>
+
+    <ImageButton android:id="@+id/restar"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_remove_white_24dp"
+        android:scaleType="fitCenter"
+        android:padding="10dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="center"/>
+
+    <TextView android:id="@+id/casilla"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:textSize="22dp"
+        android:maxLines="1"
+        android:fontFamily="sans-serif"
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="2dp"
+        android:layout_below="@+id/nombrejugador"
+        android:textColor="@color/texto" />
+
+
+    <ImageButton android:id="@+id/sumar"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/ic_add_white_24dp"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="right"
+        />
+
+</LinearLayout>

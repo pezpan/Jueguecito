@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6e0428</color>
+    <color name="colorPrimaryDark">#31081f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorella">#de0d92</color>
+    <color name="colorel">#4d6cfa</color>
+    <color name="colorfondo">#ddc4dd</color>
+    <color name="colorreloj">#861657</color>
+    <color name="colorboton">#a997df</color>
+    <color name="colorpausa">#4f517d</color>
+    <item name="texto" type="color">#FFFFFF</item>
+</resources>
